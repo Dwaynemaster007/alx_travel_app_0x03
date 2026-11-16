@@ -1,3 +1,4 @@
+import os
 """
 Django settings for alx_travel_app project.
 
@@ -206,3 +207,6 @@ DEBUG = env('DEBUG')
 # No need to split, django-environ handles it if type is list
 ALLOWED_HOSTS = env('ALLOWED_HOSTS')
 
+
+# Chapa payments: set CHAPA_SECRET_KEY in your environment
+CHAPA_SECRET_KEY = os.getenv("CHAPA_SECRET_KEY", "")

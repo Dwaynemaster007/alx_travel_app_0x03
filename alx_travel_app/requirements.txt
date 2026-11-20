@@ -1,0 +1,8 @@
+Django>=5.0,<6.0
+djangorestframework>=3.15
+django-cors-headers>=4.3
+django-environ>=0.11
+drf-yasg>=1.21
+mysqlclient>=2.2
+celery>=5.3
+requests>=2.31
